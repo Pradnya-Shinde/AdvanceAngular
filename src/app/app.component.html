@@ -1,0 +1,51 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+    
+        <nav >
+            <label style="font-size:30px;cursor:pointer; margin-top:0px; " class="openmenu" (click)="openNav()" >&#9776; </label>
+         </nav>
+    <div id="mySidenav" class="sidenav">
+    <label style="font-size:30px;cursor:pointer " class="closebtn" (click)="closeNav()">&times;</label>
+      <a routerLink ="/Home" routerLinkActive="active">Home</a>
+      <a routerLink ="/About" routerLinkActive="active">Report</a>
+      <a routerLink ="/Latest" routerLinkActive="active">Latest</a>
+      <a routerLink ="/Contact" routerLinkActive="active">Contact</a>
+      
+    </div>
+
+
+<!-- <nav >
+  <a routerLink ="/Home" routerLinkActive="active">Home</a>
+  <a routerLink ="/About" routerLinkActive="active">About</a>
+  <a routerLink ="/Contact" routerLinkActive="active">Contact</a>
+  <div class="menu-entry active"> <a href="index.html">Mental Health</a>
+     <span class="submenu-icon"><span class="glyphicon glyphicon-chevron-down">
+
+     </span></span> <div class="submenu"> <div> <a href="stress.html">Stress</a>
+       <a href="anxiety.html">Anxiety</a> <a href="depression.html">Depression</a> 
+       <a href="stories.html">Share Your Story</a> </div></div></div><div class="menu-entry"> 
+         <a href="#">Find Help</a> <span class="submenu-icon">
+           <span class="glyphicon glyphicon-chevron-down"></span></span> <div class="submenu">
+              <div> <a href="helpline.html">Helpline</a> <a href="therapist.html">Find a Therapist</a> 
+              </div></div></div><div class="menu-entry"> <a href="#">Programs</a> <span class="submenu-icon">
+                <span class="glyphicon glyphicon-chevron-down"></span></span> <div class="submenu"> 
+                  <div> <a href="school-programs.html">School Program</a> <a href="gp-programs.html">GP Program</a>
+                     <a href="other_programs.html">Other Programs</a> </div></div></div><div class="menu-entry"> 
+                       <a href="#">Latest</a> <span class="submenu-icon">
+                         <span class="glyphicon glyphicon-chevron-down"></span></span>
+                          <div class="submenu"> <div> <a href="articles.html">Articles in English</a> 
+                            <a href="articles_other_languages.html">Articles in Other Languages</a> 
+                            <a href="news.html">News</a> <a href="news.html#latestevents">Events</a> 
+                            <a href="news.html#latestcampaigns">Campaigns</a> </div></div></div>
+                            <div class="menu-entry"> <a href="about.html">About</a> <span class="submenu-icon">
+                              <span class="glyphicon glyphicon-chevron-down"></span></span> <div class="submenu">
+                                 <div> <a href="about.html#deepika">
+                                   Founder</a> <a href="about.html#board">Trustees</a>
+                                    <a href="about.html#team">Team</a> <a href="about.html#projects">Projects</a>
+                                     <a href="about.html#friends">Friends of TLLLF</a> </div></div></div></nav>
+  -->
+ 
+
+  
+<router-outlet></router-outlet>
